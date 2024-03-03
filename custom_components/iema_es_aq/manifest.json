@@ -1,0 +1,11 @@
+{
+    "domain": "iema_es_aq",
+    "name": "IEMA - Espírito Santo - Qualidade do Ar",
+    "codeowners": ["@chiconws"],
+    "dependencies": [],
+    "iot_class": "cloud_polling",
+    "requirements": [],
+    "documentation": "https://github.com/chiconws/iema_es_aq",
+    "issue_tracker": "https://github.com/chiconws/iema_es_aq/issues",
+    "version": "0.1.0"
+  }
