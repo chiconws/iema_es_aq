@@ -80,7 +80,7 @@ class IemaBaseSensor(Entity):
         return f'{DOMAIN}_{self.name}_{self.api.station_id}'
 
     @property
-    def native_unit_of_measurement(self):
+    def unit_of_measurement(self):
         """Native Unit of Measurement."""
         return self.entity_description.native_unit_of_measurement
 
