@@ -38,7 +38,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Required(CONF_STATION_ID): cv.string
 })
 
-UPDATE_INTERVAL = timedelta(minutes=30)
+SCAN_INTERVAL = timedelta(minutes=30)
 
 async def async_setup_platform(
         hass: HomeAssistant,
